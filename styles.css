@@ -165,7 +165,7 @@ h1 {
 .floating-text {
   position: absolute;
   color: var(--emerald);
-  font-size: 0.58rem;
+  font-size: 2rem;
   transform: translate(-50%, -50%);
   pointer-events: none;
   text-shadow: 2px 2px 0 #13200d;
@@ -242,6 +242,7 @@ h1 {
   padding: 0.55rem 0.4rem;
   font-family: inherit;
   font-size: 0.5rem;
+  text-shadow: 2px 2px 0 #13200d;
   cursor: pointer;
 }
 
