@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Michi Miner Clicker</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="game-shell">
+    <header class="hud">
+      <h1>Michi Miner Clicker</h1>
+      <div class="stats-grid">
+        <p>Esmeraldas: <span id="emerald-count">0</span></p>
+        <p>Esmeraldas/seg: <span id="eps-count">0</span></p>
+      </div>
+    </header>
+
+    <div class="layout">
+      <section class="click-area">
+        <p class="hint">Haz click en el gato de Minecraft para minar esmeraldas.</p>
+
+        <button id="cat-button" aria-label="Clickear gato de Minecraft">
+          <img
+            id="cat-image"
+            src="images/Tuxedo_Cat.webp"
+            alt="Gato de Minecraft"
+            draggable="false"
+          />
+          <span class="button-label">Michi Bloque</span>
+        </button>
+      </section>
+
+      <aside class="shop-panel">
+        <h2>Upgrades</h2>
+        <div id="upgrade-list" class="upgrade-list"></div>
+      </aside>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
