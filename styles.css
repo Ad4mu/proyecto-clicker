@@ -11,7 +11,7 @@
   --panel: #2f2f2f;
   --outline: #171717;
   --pixel: 12px;
-  --text-shadow-dark: rgba(0, 0, 0, 0.75);
+  --text-shadow-dark: rgba(0, 0, 0, 0.5);
   --tex-cobble: url("images/cobblestone.png");
   --tex-cobble-mossy: url("images/cobblestone_mossy.png");
   --tex-dirt: url("images/dirt.png");
@@ -165,7 +165,8 @@ h1 {
 .floating-text {
   position: absolute;
   color: var(--emerald);
-  font-size: 2rem;
+  font-size: 1.5rem;
+  font-family: "Press Start 2P", cursive;
   transform: translate(-50%, -50%);
   pointer-events: none;
   text-shadow: 2px 2px 0 #13200d;
